@@ -1,5 +1,7 @@
 /* General */
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 * {
   margin: 0;
 }
@@ -12,6 +14,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 html {
@@ -28,10 +31,7 @@ button:focus {
 
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
-
 #hero-wrapper h1 {
-  font-family: 'Nanum Gothic', sans-serif;
   font-size: 50px;
   color: #373C51;
   text-align: center;
@@ -39,10 +39,14 @@ button:focus {
 }
 
 h2 {
-  font-family: 'Nanum Gothic', sans-serif;
   font-size: 30px;
-  color: #373C51;
+  color: #536976;
   padding: 0 0 50px 0;
+}
+
+p {
+  font-size: 15px;
+  color: #373C51;
 }
 
 /* Applied to all Components */
@@ -65,3 +69,20 @@ h2 {
 /* About */
 
 /* Projects */
+
+/* Footer */
+
+#footer-wrapper {
+  background: #292E49;
+  text-align: center;
+}
+
+.footer-icon {
+  height: 40px;
+  padding: 25px 5px;
+  opacity: .8;
+}
+
+.footer-icon:hover {
+  opacity: 1;
+}
