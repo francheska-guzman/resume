@@ -4,6 +4,16 @@
   margin: 0;
 }
 
+body {
+  height: 100%;
+  overflow: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 html {
   overflow: hidden;
   height: 100%;
@@ -28,6 +38,21 @@ button:focus {
   padding: 200px 0 0 0;
 }
 
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+  color: #373C51;
+  padding: 0 0 50px 0;
+}
+
+/* Applied to all Components */
+
+.wrapper {
+  margin: auto;
+  width: 800px;
+  padding: 100px 0;
+}
+
 /* Hero */
 
 #hero-wrapper {
@@ -36,3 +61,7 @@ button:focus {
   background: -webkit-linear-gradient(to left, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* About */
+
+/* Projects */
