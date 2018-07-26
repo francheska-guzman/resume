@@ -5,7 +5,7 @@ class Hero extends Component {
     return (
       <div className='hero'>
         <h1>Francheska Guzman</h1>
-        <h2>Web Developer</h2>
+        <h2 className="animation-fade-in">Web Developer</h2>
       </div>
     );
   }

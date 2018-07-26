@@ -103,6 +103,11 @@ h6 a:hover {
   max-width: 800px;
 }
 
+.app hr {
+    border: 0;
+    border-bottom: 5px dashed #BBD2C5;
+}
+
 /* Hero */
 
 .hero {
@@ -110,6 +115,12 @@ h6 a:hover {
   background: #BBD2C5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.animation-fade-in {
+  position: relative;
+  -webkit-animation: fade-in 5s; /* Safari 4.0 - 8.0 */
+  animation: fade-in 5s;
 }
 
 /* About */
@@ -172,4 +183,19 @@ h6 a:hover {
   .project-image {
     width: 100%;
   }
+
+  .app hr {
+    border-bottom: 3px dashed #BBD2C5;
+  }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fade-in {
+  0%   {opacity: 0;}
+  50%  {opacity: 1;}
+}
+
+@keyframes to-top {
+  0%   {opacity: 0;}
+  50%  {opacity: 1;}
 }

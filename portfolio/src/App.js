@@ -18,10 +18,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div id="app-wrapper">
+        <div className="app">
           <Route exact path="/" component={() => ( <Hero /> )} />
           <Route exact path="/" component={() => ( <About /> )} />
           <Route exact path="/" component={() => ( <Projects /> )} />
+          <hr />
           <Route exact path="/" component={() => ( <Footer /> )} />
           <Switch>
             <Redirect from="*" to="/" />
