@@ -11,7 +11,7 @@ class Carousel extends Component {
     super(props);
     this.state = {
       title: "Connect Four",
-      description: "The classic board game Connect Four is a two-player game board in which the players take turns dropping tokens from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
+      description: "The classic two-player board game Connect Four. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
       instructions: 'Refer to "How to Play" link located at the top of the board.',
       technologies: "HTML, CSS, and JavaScript.",
       live: "https://francheska-guzman.github.io/connect-four",
@@ -59,6 +59,7 @@ class Carousel extends Component {
         </div>
         <div className='project-data'>
             <h4>Description: {this.state.description}</h4>
+            <h4>Instructions: {this.state.instructions}</h4>
             <h4>Technologies: {this.state.technologies}</h4>
         </div>
       </div>

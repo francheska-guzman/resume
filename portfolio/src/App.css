@@ -43,19 +43,36 @@ button:focus {
 }
 
 h3 {
+  font-size: 25px;
   text-align: center;
   margin: 0 0 50px 0;
+  color: #667c85;
 }
 
 h4 {
   margin: 20px 0 0 0;
   line-height: 25px;
+  color: #373C51;
+}
+
+.data-container h4 {
+  text-align: center;
+  padding: 0 0 10px 0;
 }
 
 .footer h6 {
   font-size: 14px;
   color: #536976;
   padding: 25px 0 0 0;
+}
+
+h6 a {
+  color: #BBD2C5;
+  text-decoration: none;
+}
+
+h6 a:hover {
+  color: #536976;
 }
 
 p {
@@ -73,15 +90,6 @@ p a {
 
 p a:hover {
   color: #BBD2C5;
-}
-
-h6 a {
-  color: #BBD2C5;
-  text-decoration: none;
-}
-
-h6 a:hover {
-  color: #536976;
 }
 
 /* To all components */
@@ -121,6 +129,25 @@ h6 a:hover {
 
 .projects {
   padding: 0 0 120px 0;
+}
+
+/* Data */
+
+.data {
+  display: flex;
+  margin: 0 0 50px 0;
+}
+
+.data-container {
+  flex: 1;
+}
+
+.data-container button {
+  border: none;
+}
+
+.data-container img {
+  width: 100%;
 }
 
 /* Carousel */
@@ -174,6 +201,11 @@ h6 a:hover {
 
   .app hr {
     border-bottom: 3px dashed #BBD2C5;
+  }
+
+  .data {
+    display: block;
+    margin: 0 0 50px 0;
   }
 }
 
