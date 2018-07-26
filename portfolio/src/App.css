@@ -31,35 +31,71 @@ button:focus {
 
 /* Fonts */
 
-#hero-wrapper h1 {
+.hero h1 {
   font-size: 50px;
   color: #373C51;
   text-align: center;
-  padding: 200px 0 0 0;
+  padding: 182px 0 0 0;
 }
 
-h2 {
+.hero h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #3a434c;
+  background: -webkit-linear-gradient(to left, #BBD2C5 90%, #536976);
+  background: linear-gradient(to left, #BBD2C5 90%, #536976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper h2 {
   font-size: 30px;
   color: #536976;
-  padding: 0 0 50px 0;
+  padding: 0 0 30px 0;
+}
+
+.footer h6 {
+  font-size: 14px;
+  color: #536976;
+  padding: 25px 0 0 0;
+}
+
+p a {
+  color: #536976;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #BBD2C5;
+}
+
+h6 a {
+  color: #BBD2C5;
+  text-decoration: none;
+}
+
+h6 a:hover {
+  color: #536976;
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   color: #373C51;
+  line-height: 25px;
+  padding: 20px 0 0 0;
 }
 
-/* Applied to all Components */
+/* To all components */
 
 .wrapper {
   margin: auto;
   width: 800px;
-  padding: 100px 0;
 }
 
 /* Hero */
 
-#hero-wrapper {
+.hero {
   height: 500px;
   background: #BBD2C5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -68,11 +104,19 @@ p {
 
 /* About */
 
+.about {
+  padding: 120px 0;
+}
+
 /* Projects */
+
+.projects {
+  padding: 0 0 120px 0;
+}
 
 /* Footer */
 
-#footer-wrapper {
+.footer {
   background: #292E49;
   text-align: center;
 }
