@@ -20,13 +20,15 @@ class Carousel extends Component {
     return (
       <div className='carousel'>
         <div className='project-image'>
+          <h3>Project Name</h3>
           <Slider {...settings}>
             <div><img src="./images/project-1/1.png" alt="Image 1" /></div>
             <div><img src="./images/project-1/2.png" alt="Image 2" /></div>
           </Slider>
         </div>
         <div className='project-data'>
-            <h3>Project Name</h3>
+            <h4>Description</h4>
+            <h4>Technologies Used</h4>
         </div>
       </div>
     );
