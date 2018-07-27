@@ -6,6 +6,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
+import P1_2 from "../assets/images/projects/p1-2.png";
+import P1_3 from "../assets/images/projects/p1-3.png";
+import P2_2 from "../assets/images/projects/p2-2.png";
+import P2_3 from "../assets/images/projects/p2-3.png";
+
 class Projects extends Component {
   constructor(props){
     super(props);
@@ -17,12 +22,12 @@ class Projects extends Component {
       live: "https://francheska-guzman.github.io/connect-four",
       code: "https://github.com/francheska-guzman/connect-four",
       api: "N/A",
-      slideshow: [null, null, null]
+      carousel: [<img src={P1_2} />, <img src={P1_3} />]
     }
     this.project = this.project.bind(this);
   }
 
-  project(title, description, instructions, technologies, live, code, api, slideshow) {
+  project(title, description, instructions, technologies, live, code, api, carousel) {
     this.setState({
       title: title,
       description: description,
@@ -31,7 +36,7 @@ class Projects extends Component {
       live: live,
       code: code,
       api: api,
-      slideshow: slideshow
+      carousel: carousel
     });
   }
 
@@ -54,9 +59,8 @@ class Projects extends Component {
         <div className='project-image'>
           <h3>{this.state.title}</h3>
           <Slider {...settings}>
-            <div><img src={this.state.slideshow[0]} alt={this.state.title} /></div>
-            <div><img src={this.state.slideshow[1]} alt={this.state.title} /></div>
-            <div><img src={this.state.slideshow[2]} alt={this.state.title} /></div>
+            <div className="proj">{this.state.carousel[0]}</div>
+            <div className="proj">{this.state.carousel[1]}</div>
           </Slider>
         </div>
         <div className='project-data'>

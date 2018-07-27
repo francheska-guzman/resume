@@ -4,6 +4,10 @@ import Project1 from "../assets/images/projects/p1-1.jpg";
 import Project2 from "../assets/images/projects/p2-1.jpg";
 import Project3 from "../assets/images/projects/p3-1.jpg";
 
+import P1_2 from "../assets/images/projects/p1-2.png";
+import P1_3 from "../assets/images/projects/p1-3.png";
+import P2_2 from "../assets/images/projects/p2-2.png";
+import P2_3 from "../assets/images/projects/p2-3.png";
 
 class Data extends Component {
   constructor(props){
@@ -22,7 +26,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/connect-four",
       "https://github.com/francheska-guzman/connect-four",
       "N/A",
-      [null, null, null]
+      [<img src={P1_2} />, <img src={P1_3} />]
     );
   }
 
@@ -35,7 +39,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/weather-forecast",
       "https://github.com/francheska-guzman/weather-forecast",
       "https://openweathermap.org/api",
-      [null, null, null]
+      [<img src={P2_2} />, <img src={P2_3} />]
     );
   }
 
@@ -48,7 +52,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/credit-report",
       "https://github.com/francheska-guzman/credit-report",
       "https://creditreportapi.herokuapp.com",
-      [null, null, null]
+      [null, null]
     );
   }
 

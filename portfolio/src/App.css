@@ -137,12 +137,17 @@ p a:hover {
 }
 
 .project-image {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
 .project-data {
   width: auto;
+}
+
+.proj img {
+  text-align: center;
+  margin: auto;
 }
 
 /* Data */
