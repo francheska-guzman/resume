@@ -213,9 +213,10 @@ p a:hover {
     margin: 0 0 50px 0;
   }
 
+  .data-container button img,
   .proj img {
     max-width: 100%;
-  }
+  }  
 }
 
 /* Safari 4.0 - 8.0 */
