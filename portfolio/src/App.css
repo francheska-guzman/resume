@@ -163,6 +163,11 @@ p a:hover {
 
 .data-container button {
   border: none;
+  background: none;
+}
+
+.data-container button:hover {
+  opacity: .95;
 }
 
 .data-container img {
@@ -198,11 +203,7 @@ p a:hover {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .project-image {
-    width: 100%;
-  }
-
+@media only screen and (max-width: 550px) {
   .app hr {
     border-bottom: 3px dashed #BBD2C5;
   }
@@ -210,6 +211,10 @@ p a:hover {
   .data {
     display: block;
     margin: 0 0 50px 0;
+  }
+
+  .proj img {
+    max-width: 100%;
   }
 }
 

@@ -9,6 +9,8 @@ import P1_3 from "../assets/images/projects/p1-3.png";
 import P2_2 from "../assets/images/projects/p2-2.png";
 import P2_3 from "../assets/images/projects/p2-3.png";
 
+var description = "Representation of the web application.";
+
 class Data extends Component {
   constructor(props){
     super(props);
@@ -26,7 +28,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/connect-four",
       "https://github.com/francheska-guzman/connect-four",
       "N/A",
-      [<img src={P1_2} />, <img src={P1_3} />]
+      [<img src={P1_2} alt={description} />, <img src={P1_3} alt={description} />]
     );
   }
 
@@ -39,7 +41,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/weather-forecast",
       "https://github.com/francheska-guzman/weather-forecast",
       "https://openweathermap.org/api",
-      [<img src={P2_2} />, <img src={P2_3} />]
+      [<img src={P2_2} alt={description} />, <img src={P2_3} alt={description} />]
     );
   }
 
