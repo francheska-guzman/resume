@@ -22,7 +22,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/connect-four",
       "https://github.com/francheska-guzman/connect-four",
       "N/A",
-      null
+      [null, null, null]
     );
   }
 
@@ -35,7 +35,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/weather-forecast",
       "https://github.com/francheska-guzman/weather-forecast",
       "https://openweathermap.org/api",
-      null
+      [null, null, null]
     );
   }
 
@@ -48,7 +48,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/credit-report",
       "https://github.com/francheska-guzman/credit-report",
       "https://creditreportapi.herokuapp.com",
-      null
+      [null, null, null]
     );
   }
 

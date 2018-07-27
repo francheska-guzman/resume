@@ -76,7 +76,7 @@ h6 a:hover {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   color: #373C51;
   line-height: 25px;
   padding: 20px 0 0 0;
@@ -90,6 +90,11 @@ p a {
 
 p a:hover {
   color: #BBD2C5;
+}
+
+.project-data p span {
+  font-weight: bold;
+  color: #536976;
 }
 
 /* To all components */
@@ -131,6 +136,15 @@ p a:hover {
   padding: 0 0 120px 0;
 }
 
+.project-image {
+  width: 50%;
+  margin: auto;
+}
+
+.project-data {
+  width: auto;
+}
+
 /* Data */
 
 .data {
@@ -148,21 +162,6 @@ p a:hover {
 
 .data-container img {
   width: 100%;
-}
-
-/* Carousel */
-
-.carousel {
-  padding: 20px 0;
-}
-
-.project-image {
-  width: 50%;
-  margin: auto;
-}
-
-.project-data {
-  width: auto;
 }
 
 /* Footer */
