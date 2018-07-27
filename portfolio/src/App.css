@@ -106,7 +106,7 @@ p a:hover {
 
 .app hr {
     border: 0;
-    border-bottom: 5px dashed #BBD2C5;
+    border-bottom: 4px dashed #BBD2C5;
 }
 
 /* Hero */
@@ -157,6 +157,8 @@ p a:hover {
 .proj img {
   text-align: center;
   margin: auto;
+  border: 4px dashed #BBD2C5;
+  padding: 0px;
 }
 
 /* Data */
@@ -264,8 +266,12 @@ p a:hover {
     margin: 0 0 50px 0;
   }
 
-  .data-container button img,
   .proj img {
+    max-width: 100%;
+    border: 0px;
+  }
+
+  .data-container button img {
     max-width: 100%;
   }  
 }

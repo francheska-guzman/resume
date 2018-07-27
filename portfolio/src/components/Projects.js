@@ -43,7 +43,7 @@ class Projects extends Component {
 
   api() {
     if (this.state.api !== null) {
-      return ( <p><span><a href={this.state.api}>API</a></span></p> )
+      return ( <p><span><a href={this.state.api} target="_black">API</a></span></p> )
     };
   }
 
@@ -77,8 +77,8 @@ class Projects extends Component {
             <p><span>Technologies:</span> {this.state.technologies}</p>
           </div>
           <div className='p-data-links'>
-            <p><span><a href={this.state.live}>Live Project</a></span></p>
-            <p><span><a href={this.state.code}>GitHub Repository</a></span></p>
+            <p><span><a href={this.state.live} target="_black">Live Project</a></span></p>
+            <p><span><a href={this.state.code} target="_black">GitHub Repository</a></span></p>
             {this.api()}
           </div>
         </div>
