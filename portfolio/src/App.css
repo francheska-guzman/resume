@@ -142,7 +142,16 @@ p a:hover {
 }
 
 .project-data {
-  width: auto;
+  display: flex;
+}
+
+.p-data-info {
+  flex: 2;
+}
+
+.p-data-links {
+  flex: 1;
+  padding: 0 0 0 50px;
 }
 
 .proj img {
@@ -201,9 +210,52 @@ p a:hover {
     padding: 0 0 50px 0;
     margin: 50px;
   }
+
+  .project-data {
+    display: block;
+  }
+
+  .p-data-links {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (max-width: 550px) {
+
+  .hero h1 {
+    font-size: 43px;
+    padding: 175px 0 0 0;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+  }
+
+  .wrapper h2 {
+    font-size: 25px;
+    padding: 0 0 20px 0;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 18px 0 0 0;
+  }
+
+  h3 {
+    font-size: 21px;
+    margin: 0 0 40px 0;
+  }
+
+  h4 {
+    margin: 18px 0 0 0;
+  }
+
+  .footer h6 {
+    font-size: 13px;
+  }
+
   .app hr {
     border-bottom: 3px dashed #BBD2C5;
   }

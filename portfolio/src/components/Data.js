@@ -27,7 +27,7 @@ class Data extends Component {
       "HTML, CSS, and JavaScript.",
       "https://francheska-guzman.github.io/connect-four",
       "https://github.com/francheska-guzman/connect-four",
-      "N/A",
+      null,
       [<img src={P1_2} alt={description} />, <img src={P1_3} alt={description} />]
     );
   }

@@ -21,10 +21,11 @@ class Projects extends Component {
       technologies: "HTML, CSS, and JavaScript.",
       live: "https://francheska-guzman.github.io/connect-four",
       code: "https://github.com/francheska-guzman/connect-four",
-      api: "N/A",
+      api: null,
       carousel: [<img src={P1_2} alt={description} />, <img src={P1_3} alt={description} />]
     }
     this.project = this.project.bind(this);
+    this.api = this.api.bind(this);
   }
 
   project(title, description, instructions, technologies, live, code, api, carousel) {
@@ -40,6 +41,12 @@ class Projects extends Component {
     });
   }
 
+  api() {
+    if (this.state.api !== null) {
+      return ( <p><span><a href={this.state.api}>API</a></span></p> )
+    };
+  }
+
   render() {
     const settings = {
       dots: false,
@@ -50,7 +57,7 @@ class Projects extends Component {
       speed: 3000,
       autoplaySpeed: 8000,
       cssEase: "linear"
-    };
+  };
 
     return (
       <div className='wrapper projects'>
@@ -64,9 +71,16 @@ class Projects extends Component {
           </Slider>
         </div>
         <div className='project-data'>
+          <div className='p-data-info'>
             <p><span>Description:</span> {this.state.description}</p>
             <p><span>Instructions:</span> {this.state.instructions}</p>
             <p><span>Technologies:</span> {this.state.technologies}</p>
+          </div>
+          <div className='p-data-links'>
+            <p><span><a href={this.state.live}>Live Project</a></span></p>
+            <p><span><a href={this.state.code}>GitHub Repository</a></span></p>
+            {this.api()}
+          </div>
         </div>
       </div>
     );
