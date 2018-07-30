@@ -8,6 +8,8 @@ import P1_2 from "../assets/images/projects/p1-2.png";
 import P1_3 from "../assets/images/projects/p1-3.png";
 import P2_2 from "../assets/images/projects/p2-2.png";
 import P2_3 from "../assets/images/projects/p2-3.png";
+import P3_2 from "../assets/images/projects/p3-2.png";
+import P3_3 from "../assets/images/projects/p3-3.png";
 
 var description = "Representation of the web application.";
 
@@ -54,7 +56,7 @@ class Data extends Component {
       "https://francheska-guzman.github.io/credit-report",
       "https://github.com/francheska-guzman/credit-report",
       "https://creditreportapi.herokuapp.com",
-      [null, null]
+      [<img src={P3_2} alt={description} />, <img src={P3_3} alt={description} />]
     );
   }
 
