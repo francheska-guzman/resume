@@ -6,8 +6,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
-import P1_2 from "../assets/images/projects/p1-2.png";
-import P1_3 from "../assets/images/projects/p1-3.png";
+import P1_2 from "../assets/projects/p1-2.png";
+import P1_3 from "../assets/projects/p1-3.png";
 
 var description = "Representation of the web application.";
 

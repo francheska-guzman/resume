@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import GitHub from "../assets/images/icons/github.png";
-import Email from "../assets/images/icons/email.png";
-import LinkedIn from "../assets/images/icons/linkedin.png";
+import GitHub from "../assets/icons/github.png";
+import Email from "../assets/icons/email.png";
+import LinkedIn from "../assets/icons/linkedin.png";
 
 class Footer extends Component {
   render() {

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import Project1 from "../assets/images/projects/p1-1.jpg";
-import Project2 from "../assets/images/projects/p2-1.jpg";
-import Project3 from "../assets/images/projects/p3-1.jpg";
+import Project1 from "../assets/projects/p1-1.jpg";
+import Project2 from "../assets/projects/p2-1.jpg";
+import Project3 from "../assets/projects/p3-1.jpg";
 
-import P1_2 from "../assets/images/projects/p1-2.png";
-import P1_3 from "../assets/images/projects/p1-3.png";
-import P2_2 from "../assets/images/projects/p2-2.png";
-import P2_3 from "../assets/images/projects/p2-3.png";
-import P3_2 from "../assets/images/projects/p3-2.png";
-import P3_3 from "../assets/images/projects/p3-3.png";
+import P1_2 from "../assets/projects/p1-2.png";
+import P1_3 from "../assets/projects/p1-3.png";
+import P2_2 from "../assets/projects/p2-2.png";
+import P2_3 from "../assets/projects/p2-3.png";
+import P3_2 from "../assets/projects/p3-2.png";
+import P3_3 from "../assets/projects/p3-3.png";
 
 var description = "Representation of the web application.";
 

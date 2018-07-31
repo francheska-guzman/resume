@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import picture from "../assets/images/about-picture.jpg";
+import picture from "../assets/about-picture.jpg";
 
 class About extends Component {
   render() {
