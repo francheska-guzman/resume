@@ -130,6 +130,14 @@ p a:hover {
   padding: 120px 0;
 }
 
+.about img {
+  border: 4px dashed #BBD2C5;
+  border-radius: 50%;
+  max-height: 120px;
+  margin: 35px 25px 0 0;
+  float: left;
+}
+
 /* Projects */
 
 .projects {
@@ -208,6 +216,12 @@ p a:hover {
     margin: 50px;
   }
 
+  .about img {
+    margin: auto;
+    display: block;
+    float: none;
+  }
+
   .projects {
     padding: 0 0 50px 0;
     margin: 50px;
@@ -220,7 +234,6 @@ p a:hover {
   .p-data-links {
     padding: 0;
   }
-
 }
 
 @media only screen and (max-width: 550px) {
